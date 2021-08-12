@@ -9,8 +9,10 @@ ViewUI
     <h3>A high quality UI Toolkit built on Vue.js.</h3>
 </h1>
 
+> 此项目在ViewDesign UI 4.5.0 版本上 修复了 Message和Notice的静态方法类型声明不存在、CollapsePanel 应为 Panel 组件声明的问题。
+>
 > 该项目即为原先的 iView。iView 作者将在此仓库继续开发 iView 4.0 和后续版本，以及维护工作。新的组件库命名为 ViewUI，原仓库 iView 作者不再提交内容。
-> 
+>
 > This project is the original iView. The iView author will continue to develop iView 4.0 and subsequent releases, as well as maintenance work, in this repository. The new component library is named ViewUI, and the iView author will no longer continue to submit content in the original repository.
 
 [![](https://img.shields.io/travis/iview/iview.svg?style=flat-square)](https://travis-ci.org/iview/iview)
@@ -99,8 +101,8 @@ import 'view-design/dist/styles/iview.css';
 
 If you want to contribute us or in case you are haiving any doubt.
 
-**Questions:** Find other users at the [Gitter chat](https://gitter.im/iview/iview) or post on [StackOverflow using `[iview-ui]` tag](https://stackoverflow.com/questions/tagged/iview-ui)  
-**Bugs:** [File a issue here](https://github.com/iview-design/iview/issues) - please provide a example so we can help you better  
+**Questions:** Find other users at the [Gitter chat](https://gitter.im/iview/iview) or post on [StackOverflow using `[iview-ui]` tag](https://stackoverflow.com/questions/tagged/iview-ui)
+**Bugs:** [File a issue here](https://github.com/iview-design/iview/issues) - please provide a example so we can help you better
 **Contribute:** Contact us in [Gitter chat](https://gitter.im/iview/iview), WeChat or via mail to `admin@aresn.com`. PRs welcome!
 
 ## Major Contributors

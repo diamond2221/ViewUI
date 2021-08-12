@@ -9,27 +9,32 @@ export declare class Notice extends Vue {
      * 打开
      * @param config NoticeConfig为相关配置,string为待显示的内容
      */
-    open(config?: NoticeConfig | string): void;
+    public open(config?: NoticeConfig | string): void;
+    public static open(config?: NoticeConfig | string): void;
     /**
      * 信息
      * @param config NoticeConfig为相关配置,string为待显示的内容
      */
-    info(config?: NoticeConfig | string): void;
+    public info(config?: NoticeConfig | string): void;
+    public static info(config?: NoticeConfig | string): void;
     /**
      * 成功
      * @param config NoticeConfig为相关配置,string为待显示的内容
      */
-    success(config?: NoticeConfig | string): void;
+    public success(config?: NoticeConfig | string): void;
+    public static success(config?: NoticeConfig | string): void;
     /**
      * 警告
      * @param config NoticeConfig为相关配置,string为待显示的内容
      */
-    warning(config?: NoticeConfig | string): void;
+    public warning(config?: NoticeConfig | string): void;
+    public static warning(config?: NoticeConfig | string): void;
     /**
      * 错误
      * @param config NoticeConfig为相关配置,string为待显示的内容
      */
-    error(config?: NoticeConfig): void;
+    public error(config?: NoticeConfig): void;
+    public static error(config?: NoticeConfig): void;
     /**
      * 全局配置
      */
@@ -37,7 +42,8 @@ export declare class Notice extends Vue {
     /**
      * 全局关闭某个通知
      */
-    close(name?: string): void;
+    public close(name?: string): void;
+    public static close(name?: string): void;
     /**
      * 全局销毁
      */
