@@ -40,7 +40,7 @@
                 @compositionend="handleComposition"
                 @input="handleInput"
                 @change="handleChange"
-                @paste="handlePaste">
+                @paste.native="handlePaste">
             <div :class="[prefixCls + '-group-append']" v-if="append" v-show="slotReady"><slot name="append"></slot></div>
             <div :class="[prefixCls + '-group-append', prefixCls + '-search']" v-else-if="search && enterButton" @click="handleSearch">
                 <i class="ivu-icon ivu-icon-ios-search" v-if="enterButton === true"></i>
@@ -75,7 +75,7 @@
                 @compositionupdate="handleComposition"
                 @compositionend="handleComposition"
                 @input="handleInput"
-                @paste="handlePaste">
+                @paste.native="handlePaste">
             </textarea>
             <span class="ivu-input-word-count" v-if="showWordLimit">{{ textLength }}/{{ upperLimit }}</span>
         </template>
